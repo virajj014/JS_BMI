@@ -1,0 +1,176 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #85ff63;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont {
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-family: 'Rubik', sans-serif;
+        color: #85ff63;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #85ff63;
+        border-radius: 5px 0px 0px 5px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .contin {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    select {
+        width: 100px;
+        height: 40px;
+        border: 1px solid #85ff63;
+        border-radius: 0px 5px 5px 0px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+        background-color: #85ff63;
+        color: rgb(30, 30, 30);
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    select option {
+        color: rgb(70, 70, 70);
+        font-weight: 600;
+    }
+
+
+
+    .form button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #85ff63;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    input:focus,
+    select:focus {
+        outline: 2px solid #85ff63;
+    }
+
+    #weightinputpound {
+        display: none;
+    }
+
+
+    #heightinputcm {
+        display: none;
+    }
+
+    #heightinputin {
+        display: none;
+    }
+
+    #heightinputft {
+        display: none;
+    }
+
+    label {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #85ff63;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .result {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #85ff63;
+        border-radius: 10px;
+        padding: 20px;
+        display: none;
+    }
+
+    .result h2 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(98, 98, 98);
+    }
+
+    .status {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(69, 69, 69);
+    }
+
+    .measurements {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(69, 69, 69);
+    }
+
+    .measurements p {
+        margin-bottom: 5px;
+        color: rgb(85, 85, 85);
+    }
+
+    .result button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffffff;
+        color: #85ff63;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        cursor: pointer;
+    }
